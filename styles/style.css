@@ -108,3 +108,54 @@ nav li a {
   color: var(--orangeColor);
   border: 1px solid var(--orangeColor);
 }
+/* main style */
+
+main {
+  max-width: 1140px;
+  margin: 130px auto;
+  text-align: center;
+}
+.about {
+  padding: 110px 180px;
+  background-color: var(--whiteHero);
+  border-radius: 10px;
+}
+main h3.h3-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--darkDeep);
+}
+.about > p {
+  margin: 30px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.technical-skill {
+  padding: 110px 0px;
+}
+.technical-skill > p {
+  padding: 30px 170px;
+}
+.all-skills {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.all-skills .skill {
+  width: 240px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px 5px rgba(128, 128, 128, 0.152);
+  text-align: start;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.skill h4 {
+  color: #181818;
+  margin: 20px 0;
+}
+.skill p {
+  font-size: 16px;
+}
