@@ -46,7 +46,8 @@ i {
 }
 header {
   background-color: var(--whiteHero);
-  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-size: 90px, 50%;
   background-position: 2% 30%, bottom right;
