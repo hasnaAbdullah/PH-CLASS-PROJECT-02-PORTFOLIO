@@ -1,2 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 /* font-family: "Open Sans", serif; */
+:root {
+  --darkLightOne: #757575;
+  --darkLightTwo: #474747;
+  --darkDeep: #181818;
+  --orangeColor: #fd6e0a;
+  --halfCircleOne: rgba(253, 110, 10, 20%);
+  --halfCircleTwo: rgba(253, 110, 10, 15%);
+  --halfCircleThree: rgba(253, 110, 10, 10%);
+  --whiteHero: #fff8f3;
+}
+body {
+  font-family: "Open Sans", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* shared style */
+h4,
+h3 {
+  color: var(--darkLightTwo);
+}
+p {
+  color: var(--darkLightOne);
+}
+/* button style */
+.btn-primary {
+  padding: 18px 36px;
+  font-size: 20px;
+  background-color: var(--orangeColor);
+  border-radius: 5px;
+  font-weight: 700;
+  color: var(--whiteHero);
+  border: none;
+}
+header {
+  background-color: var(--whiteHero);
+  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: 5.6%, 50%;
+  background-position: 2% top, bottom right;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 200px 20px 150px;
+  align-items: center;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+  color: #181818;
+  & span {
+    color: var(--orangeColor);
+  }
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+nav ul li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--darkLightTwo);
+  font-weight: 500;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 35px 0 150px;
+}
+.banner-content {
+  width: 595px;
+  margin-top: 100px;
+}
+.banner .banner-content h3 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner .banner-content h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.banner .banner-content p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.banner .banner-profile-pic img {
+  width: 500px;
+}
+.banner .banner-content button {
+  margin-right: 10px;
+}
+.banner .banner-content button:last-child {
+  background-color: transparent;
+  color: var(--orangeColor);
+  border: 1px solid var(--orangeColor);
+}
