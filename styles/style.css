@@ -40,13 +40,14 @@ header {
   background-color: var(--whiteHero);
   background-image: url("/images/developer.png"), url("/images/header_bg.png");
   background-repeat: no-repeat;
-  background-size: 5.6%, 50%;
-  background-position: 2% top, bottom right;
+  background-size: 90px, 50%;
+  background-position: 2% 30%, bottom right;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 45px 200px 20px 150px;
+  margin: 0px 200px 20px 150px;
+  padding-top: 45px;
   align-items: center;
 }
 .nav-title {
