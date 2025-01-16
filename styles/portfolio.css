@@ -356,4 +356,20 @@ form > textarea {
     flex-direction: column;
     margin: 10px 0;
   }
+  footer {
+    margin-top: 80px;
+  }
+  .contact-form {
+    width: 100%;
+    padding: 40px 5px;
+
+    flex-direction: column;
+    gap: 60px;
+  }
+  .contact {
+    width: 100%;
+  }
+  .contact-form form > div {
+    text-align: center;
+  }
 }
