@@ -317,7 +317,8 @@ form > textarea {
     margin-top: 100px;
     padding: 50px 0;
   }
-  .about-items {
+  .about-items,
+  .all-skills {
     margin-top: 30px;
     flex-direction: column;
   }
@@ -327,5 +328,32 @@ form > textarea {
   main h3.h3-title {
     font-size: 30px;
     margin-bottom: 30px;
+  }
+  .technical-skill {
+    padding: 0;
+    margin-top: 80px;
+  }
+  .technical-skill > p {
+    padding: 0 8px;
+  }
+  .all-skills {
+    align-items: center;
+  }
+  .experiences,
+  .educations {
+    width: 100%;
+    margin: 50px 0;
+    padding: 0 8px;
+  }
+  .experiences {
+    margin-bottom: 10px;
+  }
+  .resume-section {
+    margin: 0;
+    margin-top: 120px;
+  }
+  .resume {
+    flex-direction: column;
+    margin: 10px 0;
   }
 }
