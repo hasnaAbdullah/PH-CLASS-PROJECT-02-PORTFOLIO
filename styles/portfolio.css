@@ -81,7 +81,6 @@ nav li a {
   color: var(--darkLightTwo);
   font-weight: 500;
 }
-
 /* banner style */
 .banner {
   display: flex;
@@ -105,7 +104,6 @@ nav li a {
   font-size: 18px;
   margin-bottom: 25px;
 }
-
 .banner .banner-profile-pic img {
   width: 500px;
 }
@@ -118,7 +116,6 @@ nav li a {
   border: 1px solid var(--orangeColor);
 }
 /* main style */
-
 main {
   max-width: 1140px;
   margin: 130px auto;
@@ -154,7 +151,7 @@ main h3.h3-title {
   margin-top: 20px;
 }
 .all-skills .skill {
-  width: 240px;
+  max-width: 240px;
   background-color: #ffffff;
   box-shadow: 2px 2px 5px 5px rgba(128, 128, 128, 0.152);
   text-align: start;
@@ -168,7 +165,6 @@ main h3.h3-title {
 .skill p {
   font-size: 16px;
 }
-
 .resume-section {
   padding: 30px 0px;
 }
@@ -207,18 +203,15 @@ h4 {
   color: var(--darkLightOne);
   font-size: 15px;
 }
-
 /* footer styles */
 footer {
   background-color: var(--whiteHero);
 }
-
 .contact-form {
   padding: 110px 200px;
   display: flex;
   gap: 100px;
 }
-
 .contact {
   width: 500px;
 }
@@ -240,7 +233,6 @@ form h3 {
 .contact img {
   margin-right: 15px;
 }
-
 form > input {
   display: block;
   padding: 10px 17px;
@@ -257,4 +249,24 @@ form > textarea {
   padding: 10px;
   margin-bottom: 20px;
   resize: none;
+}
+.hide {
+  display: none;
+}
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .technical-skill {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .technical-skill > p {
+    padding: 5px;
+  }
+  .all-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+  .all-skills .skill {
+    max-width: 300px;
+  }
 }
